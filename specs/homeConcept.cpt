@@ -1,0 +1,66 @@
+Created by testinium on 31.01.2022
+
+This is a concept file with following syntax for each concept.
+# Alışverişe başla butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Alışveriş sayfasında <text> alanını kontrol et
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayStore']/android.widget.TextView" li elementi bul ve <text> ini kontrol et
+* "5" saniye kadar bekle
+
+# Kategoriler sayfasını aç
+* xpath "//android.widget.FrameLayout[@content-desc='Kategoriler']/android.widget.ImageView" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Kategoriler sayfasında <text> alanını  kontrol et
+* xpath "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Menü sayfasında kadın seçeneğine tıkla
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerCategories']/android.widget.RelativeLayout[2]" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Pantolon Kategorisine tıkla
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Sayfayı aşağı doğru kaydır(scroll)
+* Sayfayı aşağı kaydır
+* "5" saniye kadar bekle
+
+# Sayfayı aşağı doğru kaydır(scroll)
+* Sayfayı aşağı kaydır
+* "5" saniye kadar bekle
+
+# Rastgele bir ürün seç
+* Ürünler "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" arasından rastgele bir tane seç
+* "5" saniye kadar bekle
+
+# Ürün detay sayfası açıldı mı diye kontrol et
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLaySizeView']/android.widget.TextView" li elementi bul ve <text> ini kontrol et
+* "5" saniye kadar bekle
+
+# Favoriler butonuna tıkla
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/imgFav']" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Giriş sayfasının açıldığını doğrula
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tvRegister']" li elementi bul ve "Üye Ol" ini kontrol et
+* "5" saniye kadar bekle
+
+# Kullanıcı adına text değerini gir
+*id "com.ozdilek.ozdilekteyim:id/etEposta" li ementi bul ve "ozcan.bukun@hotmail.com" değerini yaz
+* "5" saniye kadar bekle
+
+# Password alanına text değerini gir
+*id "com.ozdilek.ozdilekteyim:id/etPassworda" li ementi bul ve "1q2w3e4r5t" değerini yaz
+* "5" saniye kadar bekle
+
+# Geri butonuna bas
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Ürünü sepete ekle
+* id "com.ozdilek.ozdilekteyim:id/cardAddToCart" li elemente tıkla
+* "5" saniye kadar bekle
